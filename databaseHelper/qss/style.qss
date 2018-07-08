@@ -1,0 +1,33 @@
+QDialog
+{
+    font 12pt "微软雅黑"
+    color: yellow
+}
+
+QTableView::section
+{
+	background-color:lightblue
+}
+
+
+
+QHeaderView::section:first
+{
+    color:black;
+    height: 30px;
+    font: 11pt "微软雅黑";
+}
+
+QHeaderView::section:middle
+{
+    color:black;
+    height: 30px;
+    font: 11pt "微软雅黑";
+}
+
+QHeaderView::section:last
+{
+    color:black;
+    height: 30px;
+    font: 11pt "微软雅黑";
+}

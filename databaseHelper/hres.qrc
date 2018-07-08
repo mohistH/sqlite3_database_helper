@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/ico/helper.ico</file>
+        <file>res/ico/menu/exit.ico</file>
+        <file>res/ico/menu/open.ico</file>
+        <file>res/ico/menu/setting.ico</file>
+        <file>res/ico/menu/about.ico</file>
+        <file>res/ico/toolbar/forward.ico</file>
+        <file>res/ico/toolbar/last.ico</file>
+        <file>res/ico/toolbar/submit.ico</file>
+        <file>res/ico/toolbar/add.ico</file>
+        <file>res/ico/toolbar/del.ico</file>
+        <file>res/ico/tab/tab.ico</file>
+        <file>res/ico/toolbar/previous.ico</file>
+        <file>res/ico/toolbar/next.ico</file>
+        <file>res/ico/dev/open.ico</file>
+        <file>res/ico/dev/save.ico</file>
+        <file>res/ico/tab/dev.ico</file>
+        <file>qss/style.qss</file>
+    </qresource>
+</RCC>

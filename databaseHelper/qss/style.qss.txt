@@ -1,0 +1,5 @@
+
+
+
+
+QLineEdit { background: yellow }
