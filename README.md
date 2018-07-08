@@ -28,8 +28,8 @@
 
 	It is very simple.
 	
-	![Alt text](https://github.com/mohistH/sqlite3_database_helper/blob/master/soft_ui/ui1.png)  
-	![Alt text](https://github.com/mohistH/sqlite3_database_helper/blob/master/soft_ui/ui2.png)
+	![image](https://github.com/mohistH/sqlite3_database_helper/blob/master/soft_ui/ui1.png)  
+	![image](https://github.com/mohistH/sqlite3_database_helper/blob/master/soft_ui/ui2.png)
 	
 	
   
