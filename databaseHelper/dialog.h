@@ -26,6 +26,9 @@ class QTimer;
 class QDragEnterEvent;
 class QDropEvent;
 
+#ifdef he_use_log
+#include "hloghelper.h"
+#endif // he_use_log
 
 
 
@@ -309,6 +312,12 @@ private:
 
     // 定时器
     QTimer          *timer;
+
+
+
+#ifdef he_use_log
+    HLogHelper      m_Log;
+#endif//he_use_log
 };
 
 #endif // DIALOG_H

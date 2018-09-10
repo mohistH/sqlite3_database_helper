@@ -2,6 +2,10 @@
 #define CONSTDEF_H
 
 
+#define he_use_log
+
+
+
 enum
 {
     // start菜单按钮下的选项个数

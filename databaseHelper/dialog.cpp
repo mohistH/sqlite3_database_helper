@@ -32,6 +32,7 @@
 #include <QScrollBar>
 
 
+
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Dialog)
@@ -41,10 +42,19 @@ Dialog::Dialog(QWidget *parent) :
     ui->setupUi(this);
 
     InitUI();
+
+#ifdef he_use_log
+    m_Log.HInit(QString("ABC"));
+#endif//he_use_log
 }
 
 Dialog::~Dialog()
 {
+
+#ifdef he_use_log
+    m_Log.HUnInit();
+#endif//he_use_log
+
 
     if (nullptr != devDialog)
     {
@@ -602,6 +612,15 @@ void Dialog::SetToolBarPosCtrlIsEnable(bool isEnable)
 // open slot
 void Dialog::TopMenuStartSlotOpen()
 {
+
+#ifdef he_use_log
+    m_Log.HLogTime(QString("void Dialog::TopMenuStartSlotOpen() start"));
+#endif // he_use_log
+
+
+
+
+
     // 0、检查外设标签是否添加
     bool isAddDev               = GetAddDevTabFlag();
 
@@ -643,7 +662,9 @@ void Dialog::TopMenuStartSlotOpen()
         return;
     }
 
-    qDebug() << "选择的文件名为 = " << fileName;
+#ifdef he_use_log
+    m_Log.HLogTime(QString("void Dialog::TopMenuStartSlotOpen() choose file: %0").arg(fileName));
+#endif // he_use_log
 
 
     // 2、选择了文件，读取数据库数据

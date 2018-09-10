@@ -26,12 +26,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         dialog.cpp \
-    devdialog.cpp
+    devdialog.cpp \
+    hloghelper.cpp
 
 HEADERS += \
         dialog.h \
     devdialog.h \
-    constdef.h
+    constdef.h \
+    hloghelper.h
 
 FORMS += \
         dialog.ui
@@ -41,4 +43,4 @@ QT += sql
 RESOURCES += \
     hres.qrc
 
-DISTFILES +=
+
